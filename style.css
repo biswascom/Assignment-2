@@ -215,6 +215,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     border: 1px solid #FF900E;
     padding: 45px 35px;
     border-radius: 8px;
@@ -227,3 +228,33 @@ p {
 
 /* Sponsor area */
 
+.sponsor {
+    margin-top: 100px;
+}
+
+.sponsor .logo img {
+    width: 166.76px;
+    height: 50px;
+}
+
+.sponsor-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-text .text h2,
+.sponsor-text .text p {
+    text-align: center;
+}
+
+.sponsor-text .text {
+    margin-bottom: 60px;
+}
+
+.sponsor-text .logo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    filter: grayscale(100%);
+}
