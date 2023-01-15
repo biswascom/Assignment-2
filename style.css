@@ -406,7 +406,7 @@ p {
     }
 
     .experience-button {
-        left: 120px;
+        left: 0px;
         bottom: -200px;
     }
 
@@ -426,6 +426,10 @@ p {
     .sponsor-text .logo {
         flex-direction: column;
         gap: 50px;
+    }
+
+    .box {
+        width: 100%;
     }
 
     .footer {
