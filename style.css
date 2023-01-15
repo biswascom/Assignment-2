@@ -12,9 +12,9 @@
 /* Common style area */
 
 .container {
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding: 20px 10px;
     position: relative;
 }
 
@@ -277,7 +277,8 @@ p {
 .sponsor-text .logo {
     display: flex;
     align-items: center;
-    gap: 100px;
+    flex: 1;
+    gap: 50px;
     filter: grayscale(100%);
 }
 
@@ -326,7 +327,7 @@ p {
 }
 
 .box {
-    width: 500px;
+    max-width: 500px;
     height: 200px;
     background-color: rgba(255, 144, 14, 0.1);
     border: none;
