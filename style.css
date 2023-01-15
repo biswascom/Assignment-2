@@ -409,8 +409,9 @@ p {
     }
 
     .big-button>button {
+        position: absolute;
         left: 25%;
-        bottom: 31.5%;
+        bottom: 32%;
     }
 
     .bottom-heading-text {
