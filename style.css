@@ -15,7 +15,6 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 10px;
-    position: relative;
 }
 
 .button {
@@ -189,29 +188,27 @@ p {
     color: #727272;
 }
 
-/* Big Button area */
+.middle-right-image {
+    position: relative;
+}
 
-.big-button>button {
-    padding: 25px 30px;
-    background: #FF900E;
-    border: none;
+/* Experience Button area */
+.experience-button {
     position: absolute;
-    left: 42%;
-    bottom: 38%;
-    border-radius: 5px;
+    left: -92px;
+    bottom: -75px;
 }
 
-.big-button h1 {
+.experience-button button {
+    padding: 10px 20px;
+    font-size: 50px;
     font-weight: 700;
-    font-size: 65px;
+    border-radius: 8px;
+    border: none;
+    background: #FF900E;
     color: #FFFFFF;
 }
 
-.big-button p {
-    font-weight: 500;
-    font-size: 25px;
-    color: #FFFFFF;
-}
 
 /* Main area Bottom */
 
@@ -408,10 +405,9 @@ p {
         margin-bottom: 50px;
     }
 
-    .big-button>button {
-        position: absolute;
-        left: 22%;
-        bottom: 32%;
+    .experience-button {
+        left: 120px;
+        bottom: -200px;
     }
 
     .bottom-heading-text {
